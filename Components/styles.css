@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image:url('C:/Users/hp/Documents/GitHub/Weather_app/weatherapp/public/images/sunset.png');
+ background-attachment: fixed;
+    /* height: 100vh; */
+    /* overflow: hidden; */
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    z-index: 0.5;
+    
+}
+.detail{
+    font-family: 'Poppins', sans-serif;
+}
+
+.searchInputBox span {
+    width: 4rem;
+}
+
+.app-main {
+    color: white;
+    margin: 50px auto;
+    border-radius:34px ;
+    border-radius: 20px;
+    max-height: 700px;
+  
+}
+
+.app-main > * {
+    margin-top: 10px;
+}
+
+.input-box {
+  
+    width: 100%;
+      border: none;
+    outline: none;
+
+    position: relative;
+    color: #582233;
+    font-size: 1rem;
+    height: 50px;
+    /* border-radius: 34px; */
+    padding: 0 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.input-box:focus {
+    width:100%;
+
+}
+
+
+  
+input{
+    width: 70%;
+    border-radius: 34px;
+    
+}
+.searchInputBox {
+    display: flex;
+    width: 17%;
+    border-radius: 34px;
+    transition: ease-out 0.4s all;
+    justify-content: center;
+    
+    align-items: center;
+    margin: auto;
+    box-shadow:1px -1px 0px 7px;
+    background-color: white;
+}
+
+.body_part{
+    margin-bottom: 1rem;
+}
+
+.searchInputBox:hover{
+    width: 20rem;
+}
+input [type=text]{
+background-color: transparent;
+padding: 5px;
+
+}
+.searchInputBox i{
+    display: flex;
+    background-color: transparent;
+   font-size: 25px;
+   cursor: pointer; 
+   color: black;
+   
+}
+.searchInputBox span{
+    background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#show{
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+#main_card{
+    border-radius: 34px;
+width: 16rem;
+padding: 4px;
+
+
+
+}
+
+#weather_card{
+    width:18rem;   
+       margin:2rem;
+      position:static;
+       z-index: 1;
+      
+       color: white;
+       font-size: 1rem;
+       border-Radius:40px;
+    -webkit-transition:ease-in 0.4s all ;    
+}
+
+#weather_card:hover{
+    transition: ease-out;
+    width: 20rem;
+    text-shadow: rgb(14, 14, 14) 2px 0px 0px, rgb(14, 14, 14) 1.75517px 0.958851px 0px, rgb(14, 14, 14) 1.0806px 1.68294px 0px, rgb(14, 14, 14) 0.141474px 1.99499px 0px, rgb(14, 14, 14) -0.832294px 1.81859px 0px, rgb(14, 14, 14) -1.60229px 1.19694px 0px, rgb(14, 14, 14) -1.97998px 0.28224px 0px, rgb(14, 14, 14) -1.87291px -0.701566px 0px, rgb(14, 14, 14) -1.30729px -1.5136px 0px, rgb(14, 14, 14) -0.421592px -1.95506px 0px, rgb(14, 14, 14) 0.567324px -1.91785px 0px, rgb(14, 14, 14) 1.41734px -1.41108px 0px, rgb(14, 14, 14) 1.92034px -0.558831px 0px !important;
+    
+    color: white !important;
+    transition-duration:0.8s;
+    background:url('C:/Users/hp/Documents/GitHub/Weather_app/weatherapp/public/images/allgif.gif') ;
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+    text-transform: uppercase;
+    transform: scale(1.2);
+ 
+    text-align: center;
+    box-shadow: 2px 0px 20px 0px #4b79a1 !important;
+}
+
+.line{
+    background-color: rgba(0, 0, 0, 0.248);
+    position: relative;
+    /* width: fit-content; */
+    border-radius: 34px;
+    padding-top: 23px;
+    /* opacity: 0.6; */
+
+}
+
+#main_card:hover{
+    padding:5px;
+    width: 100%;
+}
+
+
+
+
+
+
+
